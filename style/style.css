@@ -1,0 +1,188 @@
+                @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+            * {
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+            }
+            
+            body {
+                background-color: #e9eae6;
+                font-family: 'Poppins', sans-serif;
+                color: #000000;
+            }
+            
+            li {
+                list-style-type: none;
+            }
+            
+            a {
+                text-decoration: none;
+            }
+            
+            .nav-ul {
+                display: grid;
+            }
+            
+            .header-img {
+                display: block;
+                width: 100%;
+            }
+            
+            .header-h1 {
+                color: #036d4a;
+                text-align: center;
+                font-size: 6rem;
+                padding: 1rem;
+            }
+            
+            .nav {
+                background-color: #02a16c;
+            }
+            
+            .nav-ul {
+                display: flex;
+                justify-content: space-around;
+            }
+            
+            .nav-link {
+                display: flex;
+                flex-direction: row;
+                color: #ffffff;
+                font-size: 2rem;
+                font-weight: 500;
+                padding: 1rem 0rem;
+            }
+            
+            .main-home {
+                padding-top: 1rem;
+                display: flex;
+                width: 80%;
+                margin: auto;
+            }
+            
+            .main-home-img {
+                width: 200%;
+            }
+            
+            .img-sala {
+                width: 100%;
+            }
+            
+            .main-home-p {
+                font-size: 1rem;
+                padding: 0 0 0 2rem;
+            }
+            
+            .section-home {
+                display: flex;
+                gap: 1.5rem;
+                width: 80%;
+                margin: auto;
+            }
+            
+            .section-home-p {
+                margin-top: -3rem;
+                font-size: 1rem;
+            }
+            
+            .footer {
+                text-align: center;
+                margin-bottom: 2rem;
+            }
+            
+            .redes {
+                padding: 1rem 0rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+            }
+            
+            .redes-icon {
+                cursor: pointer;
+                font-size: 2rem;
+            }
+            
+            .row {
+                display: grid;
+                grid-template-columns: 2fr;
+                grid-template-rows: 2fr;
+                gap: 15px;
+                justify-items: center;
+            }
+            
+            .galeria-img {
+                border: 4px solid rgb(130, 198, 130);
+                width: 300px;
+                height: 250px;
+            }
+            
+            .galeria-video {
+                display: block;
+                margin: auto;
+                padding: 3rem 0;
+                width: 50%;
+                aspect-ratio: 16/9;
+            }
+            
+            .instalaciones-h2 {
+                color: #1c1855;
+                text-align: center;
+                font-size: 2rem;
+                margin: auto;
+                padding-bottom: 2.5rem;
+                width: 70%;
+            }
+            
+            .imgservicios {
+                width: 100%;
+            }
+            
+            .imginstalaciones {
+                width: 100%;
+            }
+            
+            form {
+                width: 450px;
+                margin: auto;
+                background: rgba(0, 0, 0, 0.4);
+                padding: 10px 20px;
+                box-sizing: border-box;
+                margin-top: 20px;
+                border-radius: 7px;
+            }
+            
+            input,
+            textarea {
+                width: 100%;
+                margin-bottom: 20px;
+                padding: 7px;
+                box-sizing: border-box;
+                border: none;
+            }
+            
+            #boton {
+                background: #31284a;
+                color: #fff;
+                padding: 20px;
+            }
+            
+            #boton:hover {
+                cursor: pointer;
+            }
+            
+            section {
+                margin-top: 100px;
+                margin-bottom: 100px;
+            }
+            
+            @media (max-width:499px) {
+                .nav-ul {
+                    flex-direction: column;
+                }
+            }
+            
+            @media (max-width 499) {
+                .main-home {
+                    flex-direction: column;
+                }
