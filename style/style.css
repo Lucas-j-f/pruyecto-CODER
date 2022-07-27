@@ -59,23 +59,32 @@ a {
 
 .main-home {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .main-home-img {
-    margin-left: 1rem;
+    text-align: center;
 }
 
 .main-home-p {
     font-size: 1.5rem;
-    padding: 2rem 2rem 5rem 2rem;
+    padding: 2rem 2rem 0rem 2rem;
+}
+
+.tranf {
+    transform: scale(1.5);
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.tranf1 {
+    transition: all 10s;
 }
 
 .img-sala {
     border-radius: 50%;
-    height: 600px;
-    width: 600px;
+    height: 300px;
+    width: 300px;
 }
 
 .titulo-servicios {
@@ -88,43 +97,73 @@ a {
 .sub-titulo {
     font-size: 1.5rem;
     text-align: center;
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 2rem 4rem 2rem 4rem;
 }
 
 .div-Asistencia {
-    margin: 1rem 1rem 1rem 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0rem 6rem 3rem 6rem;
 }
 
-.div-a2 {
-    display: flex;
-    flex-direction: row;
+.conten-img {
+    padding-top: 5px;
+    float: left;
 }
 
 .img-asistencia {
-    width: 11rem;
     height: 11rem;
 }
 
-.t-asistencia {
-    display: flex;
-    color: #02a16c;
+.conten-t {
     text-align: left;
-    font-size: 2rem;
-    margin-left: 1rem;
+}
+
+.t-asistencia {
+    color: #02a16c;
+    font-size: 1.5rem;
+}
+
+.conten-p {
+    padding: 1rem 1rem 1rem 1rem;
 }
 
 .p-asistencia {
+    text-align: center;
     font-size: 1rem;
-    margin: 1rem 10rem 1rem 0rem;
+}
+
+
+/*sections instalaciones */
+
+.content-inst {
+    display: flex;
+}
+
+.div-Asistencia-I {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.conten-img-I {
+    text-align: center;
+}
+
+.conten-t-I {
+    text-align: center;
+}
+
+.conten-p-I {
+    text-align: center;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.main-inst {
+    margin: 2rem 0rem 5rem 0rem;
 }
 
 .href {
     text-align: center;
     font-size: 2rem;
-}
-
-.sect-ser {
-    margin: 1rem 1rem 1rem 1rem;
 }
 
 .iframe {
@@ -145,13 +184,6 @@ a {
 .section-home-p {
     margin-top: -3rem;
     font-size: 1rem;
-}
-
-.footer {
-    background: rgb(197, 236, 198);
-    background: linear-gradient(0deg, rgba(197, 236, 198, 1) 0%, rgba(255, 255, 255, 1) 80%);
-    text-align: center;
-    margin-bottom: 2rem;
 }
 
 .redes {
@@ -206,6 +238,13 @@ a {
     width: 100%;
 }
 
+.footer {
+    background: rgb(197, 236, 198);
+    background: linear-gradient(0deg, rgba(197, 236, 198, 1) 0%, rgba(255, 255, 255, 1) 80%);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 form {
     width: 450px;
     margin: auto;
@@ -235,14 +274,52 @@ textarea {
     cursor: pointer;
 }
 
-@media (min-width: 768px) {
-    .main-home {
-        flex-wrap: nowrap;
+@media (max-width: 768px) {
+    .div-Asistencia {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        margin: 1rem 6rem 4rem 6rem;
+    }
+    .conten-img {
+        text-align: center;
+    }
+    .conten-t {
+        margin-top: 1rem;
+    }
+    .conten-p {
+        text-align: center;
+        margin: 1rem 4rem 1rem 4rem;
+    }
+    .t-asistencia {
+        text-align: center;
+        color: #02a16c;
+        font-size: 1.5rem;
     }
 }
 
 @media (max-width: 768px) {
     .nav-ul {
         flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-inst {
+        display: flex;
+        flex-direction: column;
+    }
+    .div-Asistencia-I {
+        margin: 1rem 4rem 1rem 4rem;
+    }
+    .conten-img-I {
+        text-align: center;
+    }
+    .conten-t-I {
+        text-align: center;
+    }
+    .conten-p-I {
+        text-align: center;
+        margin: 1rem 1rem 1rem 1rem;
     }
 }
