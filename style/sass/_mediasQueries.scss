@@ -1,0 +1,122 @@
+@media (max-width: 837px) {
+    .div-Asistencia {
+        border: 4px solid #02a16c;
+        ;
+        display: flex;
+        flex-direction: column;
+        float: left;
+        margin: 1rem 6rem 4rem 6rem;
+    }
+    .conten-img {
+        text-align: center;
+    }
+    .conten-t {
+        margin-top: 1rem;
+    }
+    .conten-p {
+        text-align: center;
+    }
+    .t-asistencia {
+        text-align: center;
+        color: #02a16c;
+        font-size: 1.5rem;
+    }
+    .p-asistencia {
+        text-align: inherit;
+        font-size: 1rem;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-inst {
+        display: flex;
+        flex-direction: column;
+    }
+    .div-Asistencia-I {
+        margin: 1rem 4rem 1rem 4rem;
+    }
+    .conten-img-I {
+        text-align: center;
+    }
+    .conten-t-I {
+        text-align: center;
+    }
+    .conten-p-I {
+        text-align: center;
+        margin: 1rem 1rem 1rem 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-h1 {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 668px) {
+    .header-h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 568px) {
+    .header-h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 840px) {
+    .nav-link {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 665px) {
+    .nav-link {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 580px) {
+    .nav-link {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 492px) {
+    .nav-link {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-home-padre {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-home-img {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo-servicios {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 837px) {
+    .img-asistencia {
+        height: 9rem;
+        padding-right: 0rem;
+    }
+}
+
+@media (max-width: 837px) {
+    .img-asistencia {
+        height: 9rem;
+        padding-right: 0rem;
+    }
+}
